@@ -1,6 +1,6 @@
 name: flutter_ntp
 description: "A flutter implementation of (NTP) Network Time Protocol server."
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/mustafa-707/flutter_ntp
 issue_tracker: https://github.com/mustafa-707/flutter_ntp/issues
 

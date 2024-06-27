@@ -43,7 +43,7 @@ import 'package:flutter_ntp/flutter_ntp.dart';
 ### Fetching NTP Time
 
 ```dart
- DateTime currentTime = await NTP.now();
+ DateTime currentTime = await FlutterNTP.now();
  print('Current NTP time: $currentTime');
 ```
 
