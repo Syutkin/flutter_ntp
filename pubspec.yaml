@@ -1,0 +1,18 @@
+name: flutter_ntp
+description: "A flutter implementation of (NTP) Network Time Protocol server."
+version: 0.0.1
+repository: https://github.com/mustafa-707/flutter_ntp
+issue_tracker: https://github.com/mustafa-707/flutter_ntp/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
