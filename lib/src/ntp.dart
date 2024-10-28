@@ -58,7 +58,7 @@ class FlutterNTP {
   static final Map<String, int> _cache = {};
 
   /// Return NTP delay in microseconds
-  static Future<int> _getNtpOffset({
+  static Future<int> getNtpOffset({
     String? lookUpAddress,
     int? port,
     DateTime? localTime,
@@ -158,7 +158,7 @@ class FlutterNTP {
     try {
       final localTime = DateTime.now();
 
-      final offset = await _getNtpOffset(
+      final offset = await getNtpOffset(
         lookUpAddress: lookUpAddress,
         port: port,
         localTime: localTime,
